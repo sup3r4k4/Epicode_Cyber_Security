@@ -1,3 +1,15 @@
+
+#L’esercizio di oggi è scrivere un programma in Python che simuli un UDP flood, ovvero
+# l’invio massivo di richieste UDP verso una macchina target che è in ascolto su
+# una porta UDP casuale.  Requisiti:
+
+# ● Il programma deve richiedere l’inserimento dell’IP target.
+# ● Il programma deve richiedere l’inserimento della porta target.
+# ● La grandezza dei pacchetti da inviare è di 1 KB per pacchetto 
+# ● Suggerimento: per costruire il pacchetto da 1KB potete utilizzare il modulo «random»
+#   per la generazione di byte casuali.
+# ● Il programma deve chiedere all’utente quanti pacchetti da 1 KB inviare.
+
 #Importazione moduli
 import socket
 import random
